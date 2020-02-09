@@ -1,0 +1,8 @@
+
+State Machine - |DMFBTrainMoveVoltageGenerator|DMFB_Train_Controller:C0|stateCurrent
+Name stateCurrent.applyVoltage stateCurrent.nextMove stateCurrent.resetMove stateCurrent.start stateCurrent.done 
+stateCurrent.start 0 0 0 0 0 
+stateCurrent.resetMove 0 0 1 1 0 
+stateCurrent.nextMove 0 1 0 1 0 
+stateCurrent.applyVoltage 1 0 0 1 0 
+stateCurrent.done 0 0 0 1 1 
